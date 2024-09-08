@@ -2,7 +2,7 @@ source "https://rubygems.org"
 gem 'activesupport', '7.2.1'
 gem 'neo4j-ruby-driver'
 group :development, :test do
-  gem 'rspec-rails', '~> 5.0'
+  gem 'rspec-rails', '~> 7.0'
   gem 'factory_bot_rails' # Optional: For creating test data easily
   gem 'database_cleaner-active_record' # Optional: For cleaning the database between tests
 end
