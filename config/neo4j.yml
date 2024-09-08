@@ -1,0 +1,18 @@
+# config/neo4j.yml
+development:
+  type: bolt
+  url: bolt+s://22fc6445.databases.neo4j.io:7687
+  username: neo4j # Normalmente 'neo4j'
+  password: F-Wk-Zwmburp8Eq9tUgUjABlnwWlTvZf3ut79tUQNBU# La contraseña que configuraste para la base de datos de Neo4j Aura
+
+test:
+  type: bolt
+  url: bolt+s://<your_neo4j_aura_uri>:7687
+  username: <your_username>
+  password: <your_password>
+
+production:
+  type: bolt
+  url: bolt+s://<your_neo4j_aura_uri>:7687
+  username: <your_username>
+  password: <your_password>
