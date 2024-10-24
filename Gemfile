@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'activesupport', '7.2.1'
+gem 'activesupport', '7.2.1.2'
 gem 'neo4j-ruby-driver'
 group :development, :test do
   gem 'rspec-rails', '~> 5.0'
